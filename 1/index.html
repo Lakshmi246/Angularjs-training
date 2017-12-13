@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>First Day Angular JS</title>
+</head>
+<body>
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+    <div ng-controller="MyCtrl">
+    <!--Basics-->
+    <!-- {{title}}
+    <input type="text" ng-model="title">
+    {{age}}
+    <button ng-click="sayHi()">Click Me</button>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                  Department
+                </th>
+                <th>
+                     DOB
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="st in students">
+               <td>{{st.Name}}</td>
+               <td>{{st.Department}}</td>
+               <td>{{st.DOB}}</td>
+               <td>
+                   <button ng-click="onStudentSelect(st)">View</button>
+               </td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="student-details" ng-if="selectedStudent">
+            Selected Student is {{selectedStudent.Name}}
+    </div> -->
+    <!--Basics-->
+
+    <!--Image slider->
+    <!--<button ng-click="goBack()"><</button>
+    <img height="200" width="200" ng-src="{{imgList[activeImageIndex]}}" alt="">
+    <img>
+    <button ng-click="goNext()">></button> -->
+    <!--Image slider-->
+
+    <!--Calculator-->
+    <!-- Input 1:<input type="number" ng-model="input1" ng-change="onInputChange()"/><br /><br />
+    Input 2:<input type="number" ng-model="input2" ng-change="onInputChange()"/>
+    <div id="result" ng-class="{'calculation-result':isCalculated}">
+            Result is {{result}}
+    </div> 
+    <button ng-click="calculate('add')">+</button>
+    <button ng-click="calculate('substract')">-</button>
+    <button ng-click="calculate('multiply')">*</button>
+    <button ng-click="calculate('divide')">/</button> -->
+     <!--Calculator-->
+
+     <div>
+        <h2>Header</h2>
+        </div>
+        <div>
+
+        </div>
+        
+     <!--using custom template-->
+     <div>
+         <h2>Content Area</h2>
+         <my-calculator result-text="And the result is"></my-calculator>
+     </div>
+     <!---->
+     <div>
+          <h2>Footer</h2>
+          <div> 
+                <my-calculator></my-calculator>
+          </div>
+    </div>
+    </div>
+</body>
+</html>

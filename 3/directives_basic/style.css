@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.highlight{
+    margin: 10px;
+    background-color: greenyellow;
+    padding: 10px;
+    border: 1px solid #888;
+}
+div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #888;
+}

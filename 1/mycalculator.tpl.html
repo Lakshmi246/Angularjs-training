@@ -1,0 +1,12 @@
+Input 1:<input type="number" ng-model="$ctrl.input1" ng-change="$ctrl.onInputChange()"/><br /><br />
+Input 2:<input type="number" ng-model="$ctrl.input2" ng-change="$ctrl.onInputChange()"/>
+<div>
+<div id="result" ng-class="{'calculation-result':$ctrl.isCalculated}">
+        <!-- Result is {{$ctrl.result}} -->
+        {{$ctrl.resultText || 'Result is'}} {{$ctrl.result}}
+</div> 
+<button ng-click="$ctrl.calculate('add')">+</button>
+<button ng-click="$ctrl.calculate('substract')">-</button>
+<button ng-click="$ctrl.calculate('multiply')">*</button>
+<button ng-click="$ctrl.calculate('divide')">/</button>
+</div>

@@ -1,0 +1,22 @@
+<!-- <my-button 
+my-title="{{$ctrl.firstBtnTitle}}" 
+on-btn-click="$ctrl.showAlert()">
+</my-button>
+
+<my-button 
+my-title="{{$ctrl.secondBtnTitle}}" 
+on-btn-click="$ctrl.showConsole()">
+</my-button> -->
+
+<my-slideshow 
+slideshow-title="Dogs"
+img-list="$ctrl.dogList"
+></my-slideshow>
+
+<h4 ng-if="$ctrl.catSlideshowCompleted">Cats slideshow is completed</h4>
+
+<my-slideshow
+slideshow-title="Cats"
+img-list="$ctrl.catList"
+on-completed="$ctrl.onCatSlideshowCompleted()"
+></my-slideshow>

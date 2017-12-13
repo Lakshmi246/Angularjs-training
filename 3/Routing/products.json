@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "name":"iphone",
+        "company":"Apple",
+        "price":32000,
+        "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZz015G8F-YBqTkmGnW3ujpzCA_Wb7OlnNHEAtXL144w1TrTBpxQ"
+    },
+    {
+        "id":2,
+        "name":"nexus",
+        "company":"LG",
+        "price":12000,
+        "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBRlMalz2yhwqBF91Z7mg-Y_5qxlr7C44vGYjrnFwXNzbnMs-b4A"
+    }
+]
